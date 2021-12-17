@@ -46,3 +46,27 @@ the (complementary) "always" transitions make it transient.
 
 ![Example – transient](./img/examples-transient.png)
 
+### Junction
+
+This statechart has a junction. It's a utility translating to a number of actual 
+transitions. If `i` number of lines lead to a junction and `j` number of lines lead 
+out of it, as a result, `i * j` transitions will be defined. In this case, the junction
+has `1` input and `4` outputs, resulting in `1 * 4 = 4` actual transitions.
+
+Junctions can help keeping the drawing clear, but they are prone to combinatorial
+explosion – consider using intermediate states (perhaps transient ones) to keep the
+implementation manageable.
+
+![Example – junction](./img/examples-junction.png)
+
+### Timer
+
+This statechart has a timer state. After the set time it will automatically emit an
+event or take a transition – details are implementation specific.
+
+Here the timer state is used to debounce keyboard input so that validation (that might
+be an expensive operation) is only triggered while there have not been new keyboard events
+in half a second.
+
+![Example – timer](./img/examples-timer.png)
+
