@@ -9,7 +9,7 @@ You can install this library in the online diagrams.net (formerly known as draw.
 
 # Desktop installation
 
-Download the file [Statecharts.xml](https://raw.githubusercontent.com/samihult/drawio-statechart-lib/main/Statecharts.xml) to a comfortable directory. Then, i nthe desktop application, choose from the "File" menu "Open library...".
+Download the file [Statecharts.xml](https://raw.githubusercontent.com/samihult/drawio-statechart-lib/main/Statecharts.xml) to a comfortable directory. Then, in the desktop application, choose from the "File" menu "Open library...".
 
 # Examples
 
