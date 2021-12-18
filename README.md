@@ -1,5 +1,8 @@
-# drawio-statechart-lib
-Statechart library for diagrams.net (draw.io)
+# Diagrams.net Harel Statechart Library
+
+This is a Harel statechart library for diagrams.net (draw.io).
+
+The shapes are based on the [original Harel statechart paper](https://www.sciencedirect.com/science/article/pii/0167642387900359).
 
 # Online installation
 
