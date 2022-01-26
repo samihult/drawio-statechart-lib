@@ -73,3 +73,22 @@ in half a second.
 
 ![Example – timer](./img/examples-timer.png)
 
+
+### Revision marks and table
+
+Revision marks and tables come from the discipline of construction engineering, where often 
+complex drawings can be difficult to compare, and changes between revisions must be spotted
+with ease.
+
+Any significant small changes are marked with an arrow. Markers are given the label of
+current revision, "A", "B", "C" etc. A summary of the changes is written on a new row in
+the revision table.
+
+Larger revisions are marked with suitable closed line, most often a so-called "revision cloud",
+and the perimeter is marked with a label.
+
+This is not part of any statechart functionality, but rather a meta-markup to make following
+(and implementing) changes easier.  
+
+![Example – timer](./img/examples-revisions.png)
+
